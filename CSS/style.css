@@ -498,6 +498,7 @@
 
     .home-img img{
       width: 70vw;
+      height: 70vw;
       margin-top: 4rem;
     }
 
@@ -507,6 +508,7 @@
 
     .about img{
       width: 70vw;
+      height: 70vw;
       margin-top: 4rem;
     }
 
@@ -524,8 +526,18 @@
   }
 
   @media (max-width: 617px){
+    html{
+      font-size: 50%;
+    }
+
     .portfolio-container{
       grid-template-columns: 1fr;
+    }
+
+    .about-img img,
+    .home-img img{
+      width: 50vw;
+      height: 50vw;
     }
   }
 
@@ -537,15 +549,23 @@
     .contact form .input-boxin input{
       width: 100%;
     }
+
+    .about-img img,
+    .home-img img{
+      width: 50vw;
+      height: 50vw;
+    }
   }
 
   @media (max-width: 365px){
     .home-img img{
       width: 90vw;
+      height: 90vw;
     }
 
     .about-img img{
       width: 90vw;
+      height: 90vw;
     }
 
     .footer{
